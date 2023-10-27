@@ -118,36 +118,36 @@ export const integrationsAccountCards = [
     description:
       "QuickBooks Online is a cloud-based accounting software that simplifies financial management for businesses.",
     buttonText: "Connect",
-    logo: `${process.env.REACT_APP_IMAGES_BASE_URL}/assets/Accounting/quickbooks-online.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "QuickbooksOnline",
+    logoClass:'bg-QuickBooks_Online'
   },
   {
     title: "Connect With Quickbooks Desktop",
     description:
       "A robust accounting software for small and medium-sized businesses that provides comprehensive financial management tools and can be installed on a local computer.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/quickbooks-desktop.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "QuickbooksDesktop",
+    logoClass:'bg-QuickBooks_Desktop'
   },
   {
     title: "Connect With Xero",
     description:
       "Xero is an easy-to-use online accounting software designed for small businesses and their advisors.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/xero.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "Xero",
+    logoClass:'bg-XERO'
   },
 
   {
@@ -155,12 +155,12 @@ export const integrationsAccountCards = [
     description:
       "Zoho Books is an online accounting software designed for small businesses to manage their finances efficiently.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/zohobooks.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "Zoho Books",
+    logoClass:'bg-ZohoBooks'
   },
 
   {
@@ -168,37 +168,37 @@ export const integrationsAccountCards = [
     description:
       "MYOB Business is an accounting and financial management software solution for businesses in Australia and New Zealand.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/myob.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "",
+    logoClass:'bg-clearbooks'
   },
   {
     title: "Connect With Clear Books",
     description:
       " An online accounting software designed for small businesses, offering features for invoicing, expense tracking, and financial reporting.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/clearbooks.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     // formData: FORMDATA.clearBookIntegrationFields,
     titleKey: "Clear Books",
+    logoClass:'bg-clearbooks'
   },
   {
     title: "Connect With Fresh Books",
     description:
       " Cloud-based accounting software tailored for freelancers and small businesses, known for its user-friendly interface, time tracking, and invoicing capabilities.",
     buttonText: "Connect",
-    logo: `https://costallocationspro.s3.amazonaws.com/resuse-app/assets/Accounting/freshbooks.png`,
     ghost: false,
     select: false,
     type: "Accounting",
     connect: false,
     titleKey: "Fresh Books",
+    logoClass:'bg-freshbooks'
   },
 ];
 

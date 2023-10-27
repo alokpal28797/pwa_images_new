@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import imgAction from "../Redux/Action/imgAction";
-
+import styles from './index.module.scss'
 const Home = ({ integrationsAccountCards }) => {
   const logoData = integrationsAccountCards?.integrationsAccountCards;
 
@@ -19,7 +19,7 @@ const Home = ({ integrationsAccountCards }) => {
                 <Card
                   hoverable
                   style={{ width: 240 }}
-                  cover={<img alt="example" src={data?.logo} />}
+                  cover={<div className={styles[`${data.logoClass}`]}/>}
                 >
                   {data?.title}
                 </Card>
